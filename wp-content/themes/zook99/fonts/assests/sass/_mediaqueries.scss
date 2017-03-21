@@ -1,0 +1,310 @@
+@media only screen and (max-width: 1130px) {
+    .topAd {
+		display:none;
+	}
+    .siteFooter > .container { display: none;
+        
+    }
+    .layout2 {
+        .page-inside {
+            .videobarAd.page-inside-left {
+                width: 100px;
+            }
+            .sideSocialShare  {
+                float: none;
+                clear: both;
+                padding: 15px 10px;
+            }            
+            .singlePost {
+                width: 100%;
+                margin-left: -130px;
+                padding: 0;
+                .singlePostFluid {
+                    margin-left: 130px;
+                }
+            }
+        }
+        .singlePost {
+            width: 72%;
+            padding-left: 35px;
+        }
+        .pageLeft {
+            .singlePost {
+                float:none;
+                width:auto;
+            }
+        }
+    }
+	.commonStyles1 {
+		.pageLeft {
+			width:65%;
+		}
+		.pageRight {
+			width:30%;
+			.googleAd {
+				display:none;
+			}
+		}
+		.postMetaStats .postsTags {
+			width: 60%;
+		}
+		.bottomSocialShare .shareSmallButton {
+			a {
+				background-size: 412%;
+			}
+			&.twShare a {
+				background-position: 33% 0;
+			}
+			&.gpShare a {
+				background-position: 66.2% 0;
+			}
+			&.fwShare a {
+				background-position: 99% 0;
+			}
+		}
+
+	}
+	
+
+} /* max 1130 media query */
+
+
+
+
+@media only screen and (max-width: 1010px) {
+	.siteHeader {
+		height:0;
+	}
+	.googleAdsTop {
+		display:none;
+	}
+	.siteHeader .siteLogo {
+		position: absolute;
+		top: 0;
+		margin:0;
+		left: 15px;
+		a {
+			display:block;
+			height:48px;
+			img {
+				height:29px; 
+				width:auto;
+				margin-top:7px;
+			}
+		}
+	}
+	.mainMenu {
+		background: #f3f3f3;
+		.menu-categories-container {
+			padding-left:160px;
+		}
+		ul li a {
+			font-size: 14px;
+			line-height: 40px;
+			margin-top: 7px;
+		}
+	}
+
+	.commonStyles1 {
+		.sideSocialShare {
+			width: 180px;
+		}
+		.customLikeMsg {
+			margin: 25px 0px 25px 15px;
+		}
+	}
+
+
+	.layout2 {
+		.singlePost {
+			width: 74%;
+			padding-left: 0px;
+		}
+	}
+
+	
+} /* max 1024 media query */
+
+@media only screen and (max-width: 860px) {
+	.commonStyles1 {
+		.pageLeft {
+			width: auto;
+			float:none;
+		}
+		.pageRight {
+			width: auto;
+			float: none;
+		}
+	}
+	.yarpp-related-widget .yarpp-thumbnails-horizontal .yarpp-thumbnail {
+		display:inline-block;
+		width:32%;
+		text-align: center;
+		& > img {
+			max-width: none;
+			height: auto;
+			float: none;
+			display: block;
+			width: 92%;
+			margin: 0 auto;
+		}
+		span.yarpp-thumbnail-title {
+			display: block;
+			margin: 7px auto 0px;
+			width: 92%;
+			max-height: none;
+			text-align: left;
+			font-size: 13px;
+			line-height: 17px;
+		}
+	}
+	
+} /* max 860 media query */
+
+@media only screen and (max-width: 767px) {
+	.siteHeader {
+		background: #f3f3f3;
+		height: 75px;
+		.siteLogo {
+			position: static;
+			width: 200px;
+			margin: 0 auto;
+			float: none;
+			a {
+				height:75px;				
+				img {
+					height: 40px;
+					margin-top:12px;
+				}
+			}
+		}
+	}
+	.mainMenu {
+		background: #e7e7e7;
+		.menu-categories-container {
+			padding-left:0px;
+		}
+	}	
+	
+	.commonStyles1 {
+		.sideSocialShare {
+			width:auto;
+			float:none;
+			background: #222;
+			margin: 0 -15px -15px;
+			padding: 5px 0;
+			text-align:center;
+			.shareSmallButton {
+				width: 156px;
+				height: 46px;
+				a {
+					height:46px;
+					background-size: 644px;
+				}
+				&.twShare a {
+					background-position: -161px 0;
+				}
+			}
+			& > div {
+				margin:5px !important;
+				display:inline-block;
+				vertical-align:top;
+				&.customLikeMsg {
+					display:none;
+				}
+				&.shareCount {
+					margin-top:6px;
+					font-size:35px;
+					span {
+						font-size: 13px;
+					}
+				}
+			}
+		}
+		.bottomSocialShare {
+			display:none;
+		}
+	}
+	
+	.layout2 {
+		.singlePost {
+			width:auto;
+			float:none;
+		}
+	}
+	
+} /* max 767 media query */
+
+
+
+@media only screen and (max-width: 480px) {
+	.siteHeader {
+		height: 60px;
+		.siteLogo {
+			a {
+				height: 60px;
+				text-align:center;
+				img {
+					height: 31px;
+					margin-top: 12px;
+				}
+			}
+		}
+	}
+	.mainMenu {
+		height: 40px;
+		line-height: 40px;
+		.submitVideo {
+			display:none;
+		}
+		.menu-categories-container {
+			text-align:center;
+		}
+		 ul li a {
+			font-size: 12px;
+			line-height: 40px;
+			margin-top: 0;
+		}
+	}
+
+	.commonStyles1 {
+		.sideSocialShare {
+			.shareCount {
+				display:none;
+			}
+			.shareSmallButton {
+				width: 130px;
+				height: 38px;
+				&.twShare a {
+					background-position: -135px 0;
+				}
+				a {
+					background-size: 537px;
+				}
+			}
+		}
+		.pageRight .googleAd {
+			display:block;
+		}
+	}
+	.yarpp-related-widget .yarpp-thumbnails-horizontal .yarpp-thumbnail {
+		display: inline-block;
+		width: 49%;
+	}
+
+	.commonStyles1 h1 {
+		font-size: 20px;
+		line-height: 25px;
+	}
+	.postMetaStats .postsTags {
+		display: none;
+	}
+	.commonStyles1 .postMeta .facebookLike {
+		overflow:hidden;
+	}
+	.videoListings .videoPost {
+		width:auto;
+		float:none;
+		height:auto;
+	}
+} /* max 480 media query */
